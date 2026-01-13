@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HairCare Lab – Santé & soins capillaires</title>
+  <meta name="description" content="Blog dédié à la santé capillaire, aux soins et aux routines pour femmes et hommes.">
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="landing.css">
+
+  <!-- ================= BREVO - HEAD ================= -->
+  <style>
+    @font-face {
+      font-display: block;
+      font-family: Roboto;
+      src: url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"),
+           url(https://assets.brevo.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff");
+    }
+
+    #sib-container input::placeholder {
+      color: #c0ccda;
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+  <!-- ================= END BREVO - HEAD ================= -->
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div>
+      <h1>HairCare Lab</h1>
+      <nav>
+        <ul>
+          <li><a href="#promesse">Accueil</a></li>
+          <li><a href="#themes">Thématiques</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="#newsletter">Newsletter</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section id="promesse">
+      <h2>Comprendre et prendre soin de ses cheveux</h2>
+      <p>
+        HairCare Lab est un blog dédié à la santé capillaire.
+        Il accompagne femmes et hommes dans la compréhension de leurs cheveux
+        et la mise en place de routines adaptées.
+      </p>
+
+      <ul>
+        <li>Santé du cuir chevelu</li>
+        <li>Routines personnalisées</li>
+        <li>Ingrédients & soins</li>
+        <li>Conseils simples</li>
+      </ul>
+
+      <a href="#newsletter">Recevoir des conseils capillaires</a>
+    </section>
+
+    <!-- ================= NEWSLETTER / BREVO ================= -->
+    <section id="newsletter">
+
+      <!-- BEGIN BREVO FORM -->
+      <div class="sib-form" style="text-align:center; background-color:#EFF2F7;">
+        <div id="sib-form-container" class="sib-form-container">
+          <div id="sib-container" class="sib-container--large sib-container--vertical"
+               style="background-color:#ffffff; max-width:540px; margin:auto; border:1px solid #C0CCD9;">
+
+            <form id="sib-form" method="POST"
+                  action="https://2c600549.sibforms.com/serve/MUIFAL1lezL0S16DYxhHw2O80z-yDk1PYModIvldTK83ldS_gbKj7F0Trax7WUEyezvpy54hFn6fUrxXLpA5TW-AwYYFlZQ78ZosHCqOySvDY5LsWT7YBKTHd6TPswapXrpNm7wyR0_mtNabn8juumsD-FVdQgh5Ap1jKNb8Q7EjjY-FZkULPAdtzd_-EZe73uvFS5M2PaCqQ3ZTPQ==">
+
+              <h2>Recevez une mini-routine capillaire gratuite</h2>
+              <p>
+                Inscrivez-vous à la newsletter pour recevoir chaque semaine
+                des conseils adaptés à vos besoins capillaires.
+              </p>
+
+              <label for="PRENOM">Prénom</label>
+              <input type="text" id="PRENOM" name="PRENOM" placeholder="Votre prénom" required>
+
+              <label for="EMAIL">Email</label>
+              <input type="email" id="EMAIL" name="EMAIL" placeholder="Votre email" required>
+
+              <button type="submit">S'inscrire</button>
+
+              <input type="hidden" name="locale" value="fr">
+            </form>
+
+          </div>
+        </div>
+      </div>
+      <!-- END BREVO FORM -->
+
+    </section>
+
+    <!-- THEMES -->
+    <section id="themes">
+      <h2>Les thématiques du blog</h2>
+
+      <article>
+        <h3>Santé du cuir chevelu</h3>
+        <p>Pellicules, démangeaisons, cuir chevelu sensible ou gras.</p>
+      </article>
+
+      <article>
+        <h3>Types de cheveux</h3>
+        <p>Identifier son type de cheveux et comprendre ses besoins.</p>
+      </article>
+
+      <article>
+        <h3>Routines & ingrédients</h3>
+        <p>Décrypter les soins et construire une routine efficace.</p>
+      </article>
+    </section>
+
+    <!-- ARTICLES -->
+    <section id="articles">
+      <h2>Articles récents</h2>
+
+      <article>
+        <h3>Routine anti-casse</h3>
+        <p>Les gestes essentiels pour renforcer la fibre capillaire.</p>
+        <a href="#">Lire l'article</a>
+      </article>
+
+      <article>
+        <h3>Chute de cheveux</h3>
+        <p>Comprendre les causes et les solutions possibles.</p>
+        <a href="#">Lire l'article</a>
+      </article>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 HairCare Lab – Blog santé capillaire</p>
+  </footer>
+
+  <!-- ================= BREVO - SCRIPTS ================= -->
+  <script>
+    window.REQUIRED_ERROR_MESSAGE = "Vous devez renseigner ce champ.";
+    window.EMAIL_INVALID_MESSAGE = "Adresse email invalide.";
+    window.LOCALE = "fr";
+  </script>
+
+  <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+  <!-- ================= END BREVO - SCRIPTS ================= -->
+
+</body>
+</html>
