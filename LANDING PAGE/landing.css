@@ -33,10 +33,13 @@ header .brand {
 }
 
 header .brand-logo {
-  height: 40px;  /* hauteur du logo */
-  width: auto;   /* largeur proportionnelle */
+  max-height: 40px;   /* hauteur maximale du logo */
+  max-width: 120px;   /* largeur maximale pour les logos rectangulaires */
+  height: auto !important;  /* forcer le respect des proportions */
+  width: auto !important;   /* idem */
   display: block;
 }
+
 
 
 header {
@@ -138,5 +141,6 @@ footer {
 footer a {
   color: white;
 }
+
 
 
