@@ -25,6 +25,18 @@ a:hover {
 /* =====================
    HEADER
 ===================== */
+/* Logo + nom de marque dans le header */
+header .brand {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* espace entre logo et texte */
+}
+
+header .brand-logo {
+  height: 40px;       /* ajuste selon ton logo */
+  width: auto;
+  display: block;
+}
 
 header {
   background-color: white;
@@ -125,3 +137,4 @@ footer {
 footer a {
   color: white;
 }
+
