@@ -82,25 +82,27 @@
           <div id="sib-container" class="sib-container--large sib-container--vertical"
                style="background-color:#ffffff; max-width:540px; margin:auto; border:1px solid #C0CCD9;">
 
-            <form id="sib-form" method="POST"
-                  action="https://2c600549.sibforms.com/serve/MUIFAL1lezL0S16DYxhHw2O80z-yDk1PYModIvldTK83ldS_gbKj7F0Trax7WUEyezvpy54hFn6fUrxXLpA5TW-AwYYFlZQ78ZosHCqOySvDY5LsWT7YBKTHd6TPswapXrpNm7wyR0_mtNabn8juumsD-FVdQgh5Ap1jKNb8Q7EjjY-FZkULPAdtzd_-EZe73uvFS5M2PaCqQ3ZTPQ==">
+            <form id="sib-form"
+      method="POST"
+      data-type="subscription"
+      action="https://2c600549.sibforms.com/serve/MUIFAL1lezL0S16DYxhHw2O80z-yDk1PYModIvldTK83ldS_gbKj7F0Trax7WUEyezvpy54hFn6fUrxXLpA5TW-AwYYFlZQ78ZosHCqOySvDY5LsWT7YBKTHd6TPswapXrpNm7wyR0_mtNabn8juumsD-FVdQgh5Ap1jKNb8Q7EjjY-FZkULPAdtzd_-EZe73uvFS5M2PaCqQ3ZTPQ==">
 
-              <h2>Recevez une mini-routine capillaire gratuite</h2>
-              <p>
-                Inscrivez-vous à la newsletter pour recevoir chaque semaine
-                des conseils adaptés à vos besoins capillaires.
-              </p>
+  <!-- Champ anti-bot OBLIGATOIRE -->
+  <input type="text" name="email_address_check" value="" style="display:none">
 
-              <label for="PRENOM">Prénom</label>
-              <input type="text" id="PRENOM" name="PRENOM" placeholder="Votre prénom" required>
+  <h2>Recevez une mini-routine capillaire gratuite</h2>
 
-              <label for="EMAIL">Email</label>
-              <input type="email" id="EMAIL" name="EMAIL" placeholder="Votre email" required>
+  <label for="PRENOM">Prénom</label>
+  <input type="text" id="PRENOM" name="PRENOM" placeholder="Votre prénom" required>
 
-              <button type="submit">S'inscrire</button>
+  <label for="EMAIL">Email</label>
+  <input type="email" id="EMAIL" name="EMAIL" placeholder="Votre email" required>
 
-              <input type="hidden" name="locale" value="fr">
-            </form>
+  <button type="submit">S'inscrire</button>
+
+  <input type="hidden" name="locale" value="fr">
+</form>
+
 
           </div>
         </div>
@@ -165,4 +167,5 @@
 
 </body>
 </html>
+
 
