@@ -33,10 +33,11 @@ header .brand {
 }
 
 header .brand-logo {
-  height: 40px;       /* ajuste selon ton logo */
-  width: auto;
+  height: 40px;  /* hauteur du logo */
+  width: auto;   /* largeur proportionnelle */
   display: block;
 }
+
 
 header {
   background-color: white;
@@ -137,4 +138,5 @@ footer {
 footer a {
   color: white;
 }
+
 
